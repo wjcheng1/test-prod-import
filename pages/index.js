@@ -17,7 +17,7 @@ export default function Home({ articles, hrefLang, multiLanguage }) {
       />
       <>
         <div className="prose sm:prose-xl mt-20 flex flex-col mx-auto max-w-fit">
-          <h1 className="prose text-4xl text-center h-full">
+          <h2 className="prose text-4xl text-center h-full">
             Welcome to{" "}
             <a
               className="text-blue-600 no-underline hover:underline"
@@ -25,7 +25,7 @@ export default function Home({ articles, hrefLang, multiLanguage }) {
             >
               Next.js!
             </a>
-          </h1>
+          </h2>
 
           <div className="text-2xl">
             <div className="bg-black text-white rounded flex items-center justify-center p-4">
